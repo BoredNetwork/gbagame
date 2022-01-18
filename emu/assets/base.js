@@ -1,5 +1,9 @@
-// Source Code: https://github.com/BinBashBanana/webretro
-// please dont use IE
+var stateObj = {
+	foo: "bar"
+}
+history.replaceState(stateObj, "loaded", "loaded.html")
+
+
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
 if (!window.fetch || !indexedDB) {
 	alert("Update your browser!");
