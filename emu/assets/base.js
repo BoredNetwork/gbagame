@@ -1,7 +1,7 @@
 var stateObj = {
 	foo: "bar"
 }
-history.replaceState(stateObj, "loaded", "loaded.html")
+history.replaceState(stateObj, "loaded", "i_am_a_gummi_bear.html")
 
 
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
